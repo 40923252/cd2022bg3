@@ -153,9 +153,9 @@ vertical: body pane on the botton</t>
 @tabwidth -4
 @others</t>
 <t tx="leo.20220314203825.10">&lt;section&gt;
-    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
-    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
-    &lt;p&gt;Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.&lt;/p&gt;
+    &lt;h2&gt;W2&lt;/h2&gt;
+    &lt;p&gt;將各組及組員倉儲及網頁連結列出&lt;/p&gt;
+    
     &lt;br&gt;
     &lt;a href="#" class="navigate-down"&gt;
         &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
@@ -163,108 +163,63 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 </t>
 <t tx="leo.20220314203825.11">&lt;section&gt;
-    &lt;h2&gt;Basement Level 1&lt;/h2&gt;
-    &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
+    &lt;h2&gt;個人及大組倉儲連結&lt;/h2&gt;
+    &lt;p&gt;&lt;a href="https://40923252.github.io/cd2022bg3/content/W2.html"&gt;學員倉儲連結&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20220314203825.12">&lt;section&gt;
-    &lt;h2&gt;Basement Level 2&lt;/h2&gt;
-    &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
+    &lt;h2&gt;個人及大組網頁連結&lt;/h2&gt;
+    &lt;p&gt;&lt;a href="https://40923252.github.io/cd2022bg3/content/student_web%20page.html"&gt;學員網頁連結&lt;/a&gt;&lt;/p&gt;
     &lt;br&gt;
     &lt;a href="#/2"&gt;
         &lt;img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow"&gt;
     &lt;/a&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.13">&lt;section&gt;
-    &lt;h2&gt;Slides&lt;/h2&gt;
+    &lt;h2&gt;W3&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        利用NX1980繪製38個比較接近NX1980版本功能的教學影片 &lt;a href="https://40923252.github.io/cd2022bg3/content/W3.html" target="_blank"&gt;W3&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.14">&lt;section data-auto-animate&gt;
-    &lt;h2 data-id="code-title"&gt;Pretty Code&lt;/h2&gt;
-    &lt;pre data-id="code-animation"&gt;&lt;code class="hljs" data-trim data-line-numbers&gt;
-        import React, { useState } from 'react';
-
-        function Example() {
-          const [count, setCount] = useState(0);
-
-          return (
-            ...
-          );
-        }
-    &lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;Code syntax highlighting courtesy of &lt;a href="https://highlightjs.org/usage/"&gt;highlight.js&lt;/a&gt;.&lt;/p&gt;
+<t tx="leo.20220314203825.14">&lt;section&gt;
+    &lt;h2&gt;W6&lt;/h2&gt;
+    &lt;p&gt;
+           學習利用 Leo Editor 編輯網誌檔案&lt;a href="https://40923252.github.io/cd2022bg3/content/W6.html" target="_blank"&gt;bg3組員網誌網址&lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.15">&lt;section data-auto-animate&gt;
-    &lt;h2 data-id="code-title"&gt;With animations&lt;/h2&gt;
-    &lt;pre data-id="code-animation"&gt;&lt;code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"&gt;
-        import React, { useState } from 'react';
-
-        function Example() {
-          const [count, setCount] = useState(0);
-
-          return (
-            &amp;lt;div&amp;gt;
-              &amp;lt;p&amp;gt;You clicked {count} times&amp;lt;/p&amp;gt;
-              &amp;lt;button onClick={() =&amp;gt; setCount(count + 1)}&amp;gt;
-                Click me
-              &amp;lt;/button&amp;gt;
-            &amp;lt;/div&amp;gt;
-          );
-        }
-
-        function SecondExample() {
-          const [count, setCount] = useState(0);
-
-          return (
-            &amp;lt;div&amp;gt;
-              &amp;lt;p&amp;gt;You clicked {count} times&amp;lt;/p&amp;gt;
-              &amp;lt;button onClick={() =&amp;gt; setCount(count + 1)}&amp;gt;
-                Click me
-              &amp;lt;/button&amp;gt;
-            &amp;lt;/div&amp;gt;
-          );
-        }
-    &lt;/code&gt;&lt;/pre&gt;
+<t tx="leo.20220314203825.15">&lt;section&gt;
+    &lt;h2&gt;W7&lt;/h2&gt;
+    &lt;p&gt;
+           在網誌新增w7_summary 並添加組員分配到的軟體&lt;a href="https://40923252.github.io/cd2022bg3/content/W7.html" target="_blank"&gt;bg3組員網誌網址&lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
 <t tx="leo.20220314203825.16">&lt;section&gt;
-    &lt;h2&gt;Point of View&lt;/h2&gt;
+    &lt;h2&gt;W8&lt;/h2&gt;
     &lt;p&gt;
-        Press &lt;strong&gt;ESC&lt;/strong&gt; to enter the slide overview.
-    &lt;/p&gt;
-    &lt;p&gt;
-        Hold down the &lt;strong&gt;alt&lt;/strong&gt; key (&lt;strong&gt;ctrl&lt;/strong&gt; in Linux) and click on any element to zoom towards it using &lt;a href="http://lab.hakim.se/zoom-js"&gt;zoom.js&lt;/a&gt;. Click again to zoom back out.
-    &lt;/p&gt;
-    &lt;p&gt;
-        (NOTE: Use ctrl + click in Linux.)
+           將組員分為三組利用不同的繪圖程式繪製uarm並在網誌加上流程與心得&lt;a href="https://40923252.github.io/cd2022bg3/content/W7.html" target="_blank"&gt;bg3組員網誌網址&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;
 
+
 </t>
-<t tx="leo.20220314203825.17">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;h2&gt;Auto-Animate&lt;/h2&gt;
-    &lt;p&gt;Automatically animate matching elements across slides with &lt;a href="https://revealjs.com/auto-animate/"&gt;Auto-Animate&lt;/a&gt;.&lt;/p&gt;
-    &lt;div class="r-hstack justify-center"&gt;
-        &lt;div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
+<t tx="leo.20220314203825.17">&lt;section&gt;
+    &lt;h2&gt;W10&lt;/h2&gt;
+    &lt;p&gt;
+           將老師的三個影片加入註解說明&lt;a href="https://40923252.github.io/cd2022bg3/content/W10.html" target="_blank"&gt;bg3組員對應影片之網頁&lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20220314203825.18">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;div class="r-hstack justify-center"&gt;
-        &lt;div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h2 style="margin-top: 20px;"&gt;Auto-Animate&lt;/h2&gt;
+<t tx="leo.20220314203825.18">&lt;section&gt;
+    &lt;h2&gt;W11&lt;/h2&gt;
+    &lt;p&gt;
+           組員兩人一小組，在組長帳號下的分組倉儲中的同一網頁 (標題為 w11s1 ~w11s4) 加入個人 w8-w10 協同設計過程所負責的項目內容與心得及解決可能產生的衝突&lt;a href="https://40923252.github.io/cd2022bg3/content/w11s1.html" target="_blank"&gt;bg3w11-1&lt;/a&gt;、&lt;a href="https://40923252.github.io/cd2022bg3/content/w11s2.html" target="_blank"&gt;bg3w11-2&lt;/a&gt;、&lt;a href="https://40923252.github.io/cd2022bg3/content/w11s3.html" target="_blank"&gt;bg3w11-3&lt;/a&gt;and&lt;a href="https://40923252.github.io/cd2022bg3/content/w11s4.html" target="_blank"&gt;bg3w11-4&lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20220314203825.19">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
@@ -396,7 +351,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.3">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 
-    &lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
+    &lt;title&gt;cd2022bg3&lt;/title&gt;
 
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -627,17 +582,17 @@ console.log( '"customevent" has fired' );
     &lt;a href="https://revealjs.com"&gt;
         &lt;img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo"&gt;
     &lt;/a&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;h3&gt;reveal&lt;/h3&gt;
     &lt;p&gt;
-        &lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; and &lt;a href="https://github.com/hakimel/reveal.js/graphs/contributors"&gt;contributors&lt;/a&gt;&lt;/small&gt;
+        &lt;small&gt;Created by &lt;a href="https://40923252.github.io/cd2022bg3/content/index.html"&gt;cd2022bg3&lt;/a&gt;&lt;/small&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
 <t tx="leo.20220314203825.8">&lt;section&gt;
-    &lt;h2&gt;Hello There&lt;/h2&gt;
+    &lt;h2&gt;W1&lt;/h2&gt;
     &lt;p&gt;
-        reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+        創建倉儲及介紹本學期課程
     &lt;/p&gt;
 &lt;/section&gt;
 
