@@ -140,7 +140,126 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">online << <a href='online.html'>Previous</a> <a href='w14.html'>Next</a> >> w14<br /><h1>w13</h1>
-<br />online << <a href='online.html'>Previous</a> <a href='w14.html'>Next</a> >> w14</div>
+<p>利用Brython執行下列程式並讀取出有完成之學員</p>
+<p>程式檔位置:<a href="https://gist.githubusercontent.com/mdecourse/e00a3b68d4defee1987d18cc998b377a/raw/76f525f56ce4def0316d4b46af8e9100f91c21c8/check_cd2022_page.py">check</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+<div class="line number10 index9 alt1">10</div>
+<div class="line number11 index10 alt2">11</div>
+<div class="line number12 index11 alt1">12</div>
+<div class="line number13 index12 alt2">13</div>
+<div class="line number14 index13 alt1">14</div>
+<div class="line number15 index14 alt2">15</div>
+<div class="line number16 index15 alt1">16</div>
+<div class="line number17 index16 alt2">17</div>
+<div class="line number18 index17 alt1">18</div>
+<div class="line number19 index18 alt2">19</div>
+<div class="line number20 index19 alt1">20</div>
+<div class="line number21 index20 alt2">21</div>
+<div class="line number22 index21 alt1">22</div>
+<div class="line number23 index22 alt2">23</div>
+<div class="line number24 index23 alt1">24</div>
+<div class="line number25 index24 alt2">25</div>
+<div class="line number26 index25 alt1">26</div>
+<div class="line number27 index26 alt2">27</div>
+<div class="line number28 index27 alt1">28</div>
+<div class="line number29 index28 alt2">29</div>
+<div class="line number30 index29 alt1">30</div>
+<div class="line number31 index30 alt2">31</div>
+<div class="line number32 index31 alt1">32</div>
+<div class="line number33 index32 alt2">33</div>
+<div class="line number34 index33 alt1">34</div>
+<div class="line number35 index34 alt2">35</div>
+<div class="line number36 index35 alt1">36</div>
+<div class="line number37 index36 alt2">37</div>
+<div class="line number38 index37 alt1">38</div>
+<div class="line number39 index38 alt2">39</div>
+<div class="line number40 index39 alt1">40</div>
+<div class="line number41 index40 alt2">41</div>
+<div class="line number42 index41 alt1">42</div>
+<div class="line number43 index42 alt2">43</div>
+<div class="line number44 index43 alt1">44</div>
+<div class="line number45 index44 alt2">45</div>
+<div class="line number46 index45 alt1">46</div>
+<div class="line number47 index46 alt2">47</div>
+<div class="line number48 index47 alt1">48</div>
+<div class="line number49 index48 alt2">49</div>
+<div class="line number50 index49 alt1">50</div>
+<div class="line number51 index50 alt2">51</div>
+<div class="line number52 index51 alt1">52</div>
+<div class="line number53 index52 alt2">53</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="py keyword">from</code> <code class="py plain">browser </code><code class="py keyword">import</code> <code class="py plain">html</code></div>
+<div class="line number2 index1 alt1"><code class="py keyword">from</code> <code class="py plain">browser </code><code class="py keyword">import</code> <code class="py plain">document</code></div>
+<div class="line number3 index2 alt2"> </div>
+<div class="line number4 index3 alt1"><code class="py plain">brython_div </code><code class="py keyword">=</code> <code class="py plain">document[</code><code class="py string">"brython_div"</code><code class="py plain">]</code></div>
+<div class="line number5 index4 alt2"> </div>
+<div class="line number6 index5 alt1"><code class="py comments"># 根據 href 與 content 將 html 元件中的 anchor 插入頁面</code></div>
+<div class="line number7 index6 alt2"><code class="py keyword">def</code> <code class="py plain">makeLink(href, content):</code></div>
+<div class="line number8 index7 alt1"><code class="py spaces">    </code><code class="py plain">brython_div &lt;</code><code class="py keyword">=</code> <code class="py plain">html.A(content, href</code><code class="py keyword">=</code><code class="py plain">href)</code></div>
+<div class="line number9 index8 alt2"><code class="py spaces">    </code><code class="py plain">brython_div &lt;</code><code class="py keyword">=</code> <code class="py plain">html.BR()</code></div>
+<div class="line number10 index9 alt1"> </div>
+<div class="line number11 index10 alt2"><code class="py comments"># 將 2b 學號、帳號與組別的網址設為 studlist_url</code></div>
+<div class="line number12 index11 alt1"><code class="py comments"># 讀取2b學員名單</code></div>
+<div class="line number13 index12 alt2"><code class="py plain">aorb </code><code class="py keyword">=</code> <code class="py string">"2b"</code></div>
+<div class="line number14 index13 alt1"><code class="py comments"># 檢查內容為page_title變數之變數值</code></div>
+<div class="line number15 index14 alt2"><code class="py comments"># 檢查的變數值不分h1,h2,h3</code></div>
+<div class="line number16 index15 alt1"><code class="py plain">page_title </code><code class="py keyword">=</code> <code class="py string">"online"</code></div>
+<div class="line number17 index16 alt2"><code class="py plain">studlist_url </code><code class="py keyword">=</code> <code class="py string">"https://mde.tw/studlist/2022spring/"</code> <code class="py keyword">+</code> <code class="py plain">aorb </code><code class="py keyword">+</code> <code class="py string">".txt"</code></div>
+<div class="line number18 index17 alt1"><code class="py comments"># 利用 open() 與 read() 讀出資料</code></div>
+<div class="line number19 index18 alt2"><code class="py plain">data </code><code class="py keyword">=</code> <code class="py functions">open</code><code class="py plain">(studlist_url).read()</code></div>
+<div class="line number20 index19 alt1"><code class="py comments"># 若要 debug 可以查驗所取得的 data 內容</code></div>
+<div class="line number21 index20 alt2"><code class="py comments">#print(data)</code></div>
+<div class="line number22 index21 alt1"><code class="py comments"># 利用 split() 函式, 使用每一行的跳行符號\n切割所讀回的資料</code></div>
+<div class="line number23 index22 alt2"><code class="py comments"># 切割後的 stud 為數列 (list)</code></div>
+<div class="line number24 index23 alt1"><code class="py plain">stud </code><code class="py keyword">=</code> <code class="py plain">data.split(</code><code class="py string">"\n"</code><code class="py plain">)</code></div>
+<div class="line number25 index24 alt2"><code class="py comments"># 列出去頭(標題)與去尾(空白行)的數列查驗</code></div>
+<div class="line number26 index25 alt1"><code class="py comments">#print(stud[1:-1])</code></div>
+<div class="line number27 index26 alt2"><code class="py plain">count </code><code class="py keyword">=</code> <code class="py value">0</code></div>
+<div class="line number28 index27 alt1"><code class="py comments"># blog name w6_studno.html</code></div>
+<div class="line number29 index28 alt2"><code class="py plain">member </code><code class="py keyword">=</code> <code class="py plain">[]</code></div>
+<div class="line number30 index29 alt1"><code class="py comments"># 利用 for 迴圈逐一取出數列中的元素(每位學員的資料)</code></div>
+<div class="line number31 index30 alt2"><code class="py keyword">for</code> <code class="py plain">i </code><code class="py keyword">in</code> <code class="py plain">stud[</code><code class="py value">1</code><code class="py plain">:</code><code class="py keyword">-</code><code class="py value">1</code><code class="py plain">]:</code></div>
+<div class="line number32 index31 alt1"><code class="py spaces">    </code><code class="py comments">#print(i)</code></div>
+<div class="line number33 index32 alt2"><code class="py spaces">    </code><code class="py plain">studno, github, grp </code><code class="py keyword">=</code> <code class="py plain">i.split(</code><code class="py string">"\t"</code><code class="py plain">)</code></div>
+<div class="line number34 index33 alt1"><code class="py spaces">    </code><code class="py comments">#print(studno, github, grp)</code></div>
+<div class="line number35 index34 alt2"><code class="py spaces">    </code><code class="py comments">#print(type(grp))</code></div>
+<div class="line number36 index35 alt1"><code class="py spaces">    </code><code class="py plain">stud_url </code><code class="py keyword">=</code> <code class="py string">"https://"</code> <code class="py keyword">+</code> <code class="py plain">github </code><code class="py keyword">+</code> <code class="py string">".github.io/cd2022/content/"</code> <code class="py keyword">+</code> <code class="py plain">page_title </code><code class="py keyword">+</code> <code class="py string">".html"</code></div>
+<div class="line number37 index36 alt2"><code class="py spaces">    </code><code class="py plain">url_title </code><code class="py keyword">=</code> <code class="py plain">studno </code><code class="py keyword">+</code> <code class="py string">" "</code> <code class="py keyword">+</code> <code class="py plain">page_title</code></div>
+<div class="line number38 index37 alt1"><code class="py spaces">    </code><code class="py keyword">try</code><code class="py plain">:</code></div>
+<div class="line number39 index38 alt2"><code class="py spaces">        </code><code class="py plain">blog_content </code><code class="py keyword">=</code> <code class="py functions">open</code><code class="py plain">(stud_url).read()</code></div>
+<div class="line number40 index39 alt1"><code class="py spaces">        </code><code class="py plain">makeLink(stud_url, url_title)</code></div>
+<div class="line number41 index40 alt2"><code class="py spaces">    </code><code class="py keyword">except</code><code class="py plain">:</code></div>
+<div class="line number42 index41 alt1"><code class="py spaces">        </code><code class="py comments">#print(studno + " 尚無 w6 blog!")</code></div>
+<div class="line number43 index42 alt2"><code class="py spaces">        </code><code class="py keyword">pass</code></div>
+<div class="line number44 index43 alt1"><code class="py spaces">    </code><code class="py comments">#makeLink(stud_url, url_title)</code></div>
+<div class="line number45 index44 alt2"><code class="py spaces">    </code><code class="py comments"># 因為有人沒有組別或沒有登記 github 帳號</code></div>
+<div class="line number46 index45 alt1"><code class="py spaces">    </code><code class="py keyword">if</code> <code class="py plain">grp !</code><code class="py keyword">=</code> <code class="py plain">"</code><code class="py string">" and github != "</code><code class="py plain">":</code></div>
+<div class="line number47 index46 alt2"><code class="py spaces">        </code><code class="py keyword">if</code> <code class="py plain">grp </code><code class="py keyword">=</code><code class="py keyword">=</code> <code class="py string">"1"</code><code class="py plain">:</code></div>
+<div class="line number48 index47 alt1"><code class="py spaces">            </code><code class="py comments">#print(studno)</code></div>
+<div class="line number49 index48 alt2"><code class="py spaces">            </code><code class="py plain">count </code><code class="py keyword">+</code><code class="py keyword">=</code> <code class="py value">1</code></div>
+<div class="line number50 index49 alt1"><code class="py spaces">    </code><code class="py keyword">else</code><code class="py plain">:</code></div>
+<div class="line number51 index50 alt2"><code class="py spaces">        </code><code class="py functions">print</code><code class="py plain">(</code><code class="py string">"尚未分組者:"</code><code class="py plain">, studno)</code></div>
+<div class="line number52 index51 alt1"><code class="py spaces">        </code> </div>
+<div class="line number53 index52 alt2"><code class="py functions">print</code><code class="py plain">(</code><code class="py string">"done"</code><code class="py plain">)</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table><br />online << <a href='online.html'>Previous</a> <a href='w14.html'>Next</a> >> w14</div>
         
     <!-- footer -->
       <div class="container">
