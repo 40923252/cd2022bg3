@@ -222,13 +222,11 @@ vertical: body pane on the botton</t>
     &lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20220314203825.19">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;div class="r-stack"&gt;
-        &lt;div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h2 style="margin-top: 20px;"&gt;Auto-Animate&lt;/h2&gt;
+<t tx="leo.20220314203825.19">&lt;section&gt;
+    &lt;h2&gt;W12&lt;/h2&gt;
+    &lt;p&gt;
+           下載老師的程式碼計算出 uarm 不計入重複引用的零件總數及名稱&lt;a href="https://40923252.github.io/cd2022bg3/content/W12.html" target="_blank"&gt;W12&lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
