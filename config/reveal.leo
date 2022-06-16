@@ -235,32 +235,19 @@ vertical: body pane on the botton</t>
 @others
 &lt;/html&gt;</t>
 <t tx="leo.20220314203825.20">&lt;section&gt;
-    &lt;h2&gt;Touch Optimized&lt;/h2&gt;
+    &lt;h2&gt;W13&lt;/h2&gt;
     &lt;p&gt;
-        Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+        利用程式確認學員有無完成該週網頁。.
     &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.21">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-        ## Markdown support
-
-        Write content using inline or external Markdown.
-        Instructions and more info available in the [readme](https://revealjs.com/markdown/).
-
-        ```[]
-        &lt;section data-markdown&gt;
-          ## Markdown support
-
-          Write content using inline or external Markdown.
-          Instructions and more info available in the [readme](https://revealjs.com/markdown/).
-        &lt;/section&gt;
-        ```
-    &lt;/script&gt;
-&lt;/section&gt;
-
-</t>
+<t tx="leo.20220314203825.21">&lt;section&gt;
+    &lt;h2&gt;W14&lt;/h2&gt;
+    &lt;p&gt;
+        利用Lua編寫MTB robot機械手臂的控制程式
+    &lt;/p&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20220314203825.22">&lt;section&gt;
      @others
 &lt;/section&gt;
@@ -293,20 +280,12 @@ vertical: body pane on the botton</t>
     &lt;p class="fragment fade-in-then-semi-out"&gt;fade-in-then-semi-out&lt;/p&gt;
     &lt;p&gt;Highlight &lt;span class="fragment highlight-red"&gt;red&lt;/span&gt; &lt;span class="fragment highlight-blue"&gt;blue&lt;/span&gt; &lt;span class="fragment highlight-green"&gt;green&lt;/span&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20220314203825.25">&lt;section id="transitions"&gt;
-    &lt;h2&gt;Transition Styles&lt;/h2&gt;
+<t tx="leo.20220314203825.25">&lt;section&gt;
+    &lt;h2&gt;W16&lt;/h2&gt;
     &lt;p&gt;
-        You can select from different transitions, like: &lt;br&gt;
-        &lt;a href="?transition=none#/transitions"&gt;None&lt;/a&gt; -
-        &lt;a href="?transition=fade#/transitions"&gt;Fade&lt;/a&gt; -
-        &lt;a href="?transition=slide#/transitions"&gt;Slide&lt;/a&gt; -
-        &lt;a href="?transition=convex#/transitions"&gt;Convex&lt;/a&gt; -
-        &lt;a href="?transition=concave#/transitions"&gt;Concave&lt;/a&gt; -
-        &lt;a href="?transition=zoom#/transitions"&gt;Zoom&lt;/a&gt;
+        依照題目要求分組討論，並解答
     &lt;/p&gt;
-&lt;/section&gt;
-
-</t>
+&lt;/section&gt;</t>
 <t tx="leo.20220314203825.26">&lt;section id="themes"&gt;
     &lt;h2&gt;Themes&lt;/h2&gt;
     &lt;p&gt;
