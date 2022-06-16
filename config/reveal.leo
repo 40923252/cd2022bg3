@@ -34,10 +34,7 @@
 <v t="leo.20220314203825.19"><vh>slide 10</vh></v>
 <v t="leo.20220314203825.20"><vh>slide 11</vh></v>
 <v t="leo.20220314203825.21"><vh>slide 12</vh></v>
-<v t="leo.20220314203825.22"><vh>slide 13</vh>
-<v t="leo.20220314203825.23"><vh>slide 13-1</vh></v>
-<v t="leo.20220314203825.24"><vh>slide 13-2</vh></v>
-</v>
+<v t="leo.20220314203825.22"><vh>slide 13</vh></v>
 <v t="leo.20220314203825.25"><vh>slide 14</vh></v>
 <v t="leo.20220314203825.26"><vh>slide 15</vh></v>
 <v t="leo.20220314203825.27"><vh>slide 16</vh>
@@ -237,7 +234,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.20">&lt;section&gt;
     &lt;h2&gt;W13&lt;/h2&gt;
     &lt;p&gt;
-        利用程式確認學員有無完成該週網頁。.
+        理解如何利用Brython確認學員有無完成該週網頁，及部分uarm零件工程圖.&lt;small&gt;&lt;a href="https://40923252.github.io/cd2022bg3/content/w13.html"&gt;W13&lt;/a&gt;&lt;/small&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 
@@ -245,45 +242,22 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.21">&lt;section&gt;
     &lt;h2&gt;W14&lt;/h2&gt;
     &lt;p&gt;
-        利用Lua編寫MTB robot機械手臂的控制程式
+        繪製零件並組裝完成後匯入CoppeliaSim利用Python編寫MTB robot機械手臂的控制程式.&lt;small&gt;&lt;a href="https://40923252.github.io/cd2022bg3/content/w14.html"&gt;W14&lt;/a&gt;&lt;/small&gt;
+        繪製完零件檔案連結&lt;small&gt;&lt;a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923252_gm_nfu_edu_tw/EuRizdlCQHJKt4D86KSVNfwBvkkgs-uJhbrt-6Mzot4DAA?e=EBAck3"&gt;MTB robot&lt;/a&gt;&lt;/small&gt;
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.22">&lt;section&gt;
-     @others
+    &lt;h2&gt;W15&lt;/h2&gt;
+    &lt;p&gt;
+        試著將零件利用NX組立uarm機械手臂並在CoppeliaSim完成利用鍵盤動態模擬.&lt;small&gt;&lt;a href="https://40923252.github.io/cd2022bg3/content/w15.html"&gt;W15&lt;/a&gt;&lt;/small&gt;
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.23">&lt;section id="fragments"&gt;
-    &lt;h2&gt;Fragments&lt;/h2&gt;
-    &lt;p&gt;Hit the next arrow...&lt;/p&gt;
-    &lt;p class="fragment"&gt;... to step through ...&lt;/p&gt;
-    &lt;p&gt;&lt;span class="fragment"&gt;... a&lt;/span&gt; &lt;span class="fragment"&gt;fragmented&lt;/span&gt; &lt;span class="fragment"&gt;slide.&lt;/span&gt;&lt;/p&gt;
-
-    &lt;aside class="notes"&gt;
-        This slide has fragments which are also stepped through in the notes window.
-    &lt;/aside&gt;
-&lt;/section&gt;
- </t>
-<t tx="leo.20220314203825.24">&lt;section&gt;
-    &lt;h2&gt;Fragment Styles&lt;/h2&gt;
-    &lt;p&gt;There's different types of fragments, like:&lt;/p&gt;
-    &lt;p class="fragment grow"&gt;grow&lt;/p&gt;
-    &lt;p class="fragment shrink"&gt;shrink&lt;/p&gt;
-    &lt;p class="fragment fade-out"&gt;fade-out&lt;/p&gt;
-    &lt;p&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-right"&gt;fade-right, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-up"&gt;up, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-down"&gt;down, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-left"&gt;left&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p class="fragment fade-in-then-out"&gt;fade-in-then-out&lt;/p&gt;
-    &lt;p class="fragment fade-in-then-semi-out"&gt;fade-in-then-semi-out&lt;/p&gt;
-    &lt;p&gt;Highlight &lt;span class="fragment highlight-red"&gt;red&lt;/span&gt; &lt;span class="fragment highlight-blue"&gt;blue&lt;/span&gt; &lt;span class="fragment highlight-green"&gt;green&lt;/span&gt;&lt;/p&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20220314203825.25">&lt;section&gt;
     &lt;h2&gt;W16&lt;/h2&gt;
     &lt;p&gt;
-        依照題目要求分組討論，並解答
+        根據老師題目要求組別內討論如何完成Online Exam 問題.&lt;small&gt;&lt;a href="https://40923252.github.io/cd2022bg3/content/w16.html"&gt;W16&lt;/a&gt;&lt;/small&gt;
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.26">&lt;section id="themes"&gt;
