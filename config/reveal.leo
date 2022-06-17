@@ -543,7 +543,7 @@ console.log( '"customevent" has fired' );
 <t tx="leo.20220314203825.8">&lt;section&gt;
     &lt;h2&gt;W1&lt;/h2&gt;
     &lt;p&gt;
-        創建倉儲及介紹本學期課程
+        創建倉儲及介紹本學期課程 &lt;a href="https://github.com/40923252/cd2022bg3"&gt;cd2022bg3repo&lt;/a&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 
