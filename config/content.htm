@@ -2162,3 +2162,93 @@ var winkVideoData = {
 <p>Python remote API, 錄製圖形介面 slider 控制前三軸的轉動:</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_fgaAbr60-8" width="560"></iframe></p>
 <p>心得:使用協同組員的IP位置，然後需要在 CoppeliaSim 中的 Main script 裡增加一行程式 simRemoteApi.start(19999)，即可開始遠端操作機械手臂。</p><h2>40923252期末考週</h2>
+<p><em><strong>零件繪製</strong></em></p>
+<p><strong>front joint</strong></p>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008">
+<source src="https://40923252.github.io/cd2022/downloads/front%20joint.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p></p>
+<p><strong>nx12絞鍊</strong></p>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008">
+<source src="https://40923252.github.io/cd2022/downloads/nx12.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>利用老師所給<a href="https://github.com/mdecycu/cd2022_guide/tree/main/downloads/w8_midterm/w8_uarm_nx12/uarm_robot_nx12">連結</a>裡的零件使用 nx12 修改 "<strong>nx12絞鍊</strong>"與 "<strong>front joint</strong>" 零件的外型</p>
+<p><strong>心得:</strong>使用NX12來繪製修改零件，運用老師零件檔的草圖進行修改，在修改nx12絞鍊時，因為是左右相反，所以邊看老師所給的草圖邊自行重新繪製一個，在組裝時遇到比較多約束衝突卡住較久，同組組員有幫忙解決問題。</p>
+<p>uarm作動影片</p>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008">
+<source src="https://40923252.github.io/cd2022/downloads/new%20uarm.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>心得:組完uarm機械手臂後丟入CoppeliaSim放入joint並排列，第一次用完且放入程式作動後零件會散落，在修改一些參數後回歸正常，只是需要注意不要拉超過機械手臂負荷。</p>
+<p>4.測試題目 3. 的 <strong>XML UI slider</strong> 控制功能</p>
+<p>youtube連結:<a href="https://youtu.be/EH6xfPyyWbk">https://youtu.be/EH6xfPyyWbk</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/EH6xfPyyWbk" width="560"></iframe></p>
+<p>心得:使用老師給的<a href="https://mde.tw/cd2022_guide/downloads/w15_uarm_tkinter_control.7z">壓縮檔</a>裡 uarm_tkinter_control.py 檔案，在CoppeliaSim按下播放鍵後使用SciTE放入程式→Tools<span>→Go，控制三軸作動。</span></p>
+<p>5.uArm 機械手臂場景中, 加入 <strong>suctionPad</strong> 零件, 以手動操控或程式操控的方式, 錄製 <strong>block</strong> 方塊零件的取放模擬影片</p>
+<p>youtube連結:<a href="https://youtu.be/-Rz9K7bykQU">https://youtu.be/-Rz9K7bykQU</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/-Rz9K7bykQU" width="560"></iframe></p>
+<p>心得:操作像w15一樣使用鍵盤控制joint1、joint2、joint3吸取方塊並可以放置。</p>
+<p>6.由兩位 (含) 以上組員協同在新幾何外型組立的 uArm 機械手臂場景中, 以跨網路 Python remote API 的方式, 錄製圖形介面 slider 控制前三軸的轉動影片</p>
+<p>youtube連結:<a href="https://youtu.be/_fgaAbr60-8">https://youtu.be/_fgaAbr60-8</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_fgaAbr60-8" width="560"></iframe></p>
+<p>心得:在cmd裡先輸入指令 ipconfig /all 查看開啟機械手臂組員 IPV4位址，而後將程式的self.clientID' ..... '中的 IPV4 改成組員的 IPV4 位址 Tools→Go 後按下To connect 連接到機械手臂並完成三軸作動。</p>
+<p>零組件檔:<a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923252_gm_nfu_edu_tw/Eow7G13d4ApDoWHUJ4dQBngBKomO1N7i54drN2z7qX9tmg?e=t2pJDP">nx12</a></p>
